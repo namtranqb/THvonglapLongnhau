@@ -9,11 +9,11 @@
 <body>
     <script>
         let sout;
-        sout = "<table border='1' width='300' cellspacing='0' cellpadding='3'>"
+        sout = "<table border='1' width='750' cellspacing='0' cellpadding='3'>"
         for (y = 2; y <= 9; y++) {
             sout = sout + "<tr>";
             for (x = 1; x <= 9; x++) {
-                sout = sout + "<td>"+( y * x) + "</td>";
+                sout = sout + "<td>" +y+" x "+x+" = "+( y * x) + "</td>";
             }
             sout = sout + "</tr>";
         }
